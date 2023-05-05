@@ -51,4 +51,20 @@ body {
 
      background: #428389;
 }
+.controls {
+     display: flex;
+     justify-content:  space-between;
+}
 
+
+.controls i {
+     padding: 5px 0;
+     color: #bbc6dc;
+     width:  calc(100% / 4);
+     font-size: 1.3rem;
+     text-align: center;
+     cursor: pointer;
+     background-color: #212837;
+     border-right: 1px solid #171b26;
+     border-top: 1px solid #fff;
+}
