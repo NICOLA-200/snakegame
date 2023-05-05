@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&family=Roboto:wght@400;500;700;900&family=Ubuntu:wght@300;500;700&display=swap');
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     background: #e3f2fd;
+}
+
+.wrapper {
+     width: 65vmin;
+     height: 70vmin;
+     background-color:#293447 ;
+     border-radius: 5px;
+}
+
+.game-details {
+     color: #b8c6dc;
+     font-size: 1.2rem;
+     font-weight: 500;
+     padding: 20px 27px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.play-board {
+     width: 100%;
+     height: 100%;
+     display: grid;
+     grid-template: repeat(30 ,1fr) / repeat(30, 1fr);
+     background: #212837;
+}
+
+.play-board .food {
+
+     background: #ff003d;
+}
+
+
+.play-board .snake {
+
+     background: #428389;
+}
+
